@@ -48,7 +48,7 @@ public class Bank{
     }
 
     public void withdraw(int amount){
-        if(amount < balance){
+        if(amount <= balance){
             balance -= amount;
             System.out.println("hello "+customerName+". "+amount+" got withdrawn from your account a/c no."+accountNumber+". Balance remaining is \u20b9"+balance+". More details has been sent to yout email id "+'"'+email+'"'+'.'+" And on you phone number '"+phoneNumber+"'.");
         }
