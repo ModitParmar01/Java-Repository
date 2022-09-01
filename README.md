@@ -18,3 +18,6 @@
 ![GITHUB LOGO](https://cdn-icons-png.flaticon.com/512/25/25231.png "Just for fun ;)")
 
 # [***`Let's connect`***](https://www.linkedin.com/in/modit-parmar-175720205/ "My linked in profile")
+
+![project by](https://learncodeonline.in/gitone.png)
+![coder](https://learncodeonline.in/gittwo.png)
