@@ -20,8 +20,11 @@ public class Udemy2 {
 
         if (x>=10){
             while(x!=0){
+
                 x = x%10;
                 temp = x;
+
+                temp = x%10;
                 sum += temp;
                 x = x/10;
             }
