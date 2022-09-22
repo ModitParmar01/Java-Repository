@@ -1,7 +1,7 @@
 package Arrays;
 public class SortedArrays {
 
-
+/*arrays sorted in descending*/
     public static void main(String[] args) {
         int[] arr = {2,3,4,5,6};
         int[] soretedArray = sort(arr);
