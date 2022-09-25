@@ -5,9 +5,7 @@ public class SortedArrays {
     public static void main(String[] args) {
         int[] arr = {2,3,4,5,6,23,24,26};
         int[] soretedArray = sort(arr);
-        for(int i=0; i<arr.length; i++){
-            System.out.println(soretedArray[i]);
-        }
+        printSortedArray(soretedArray);
     }
 
 
@@ -23,5 +21,11 @@ public class SortedArrays {
         }
     }
         return arr;
+    }
+
+    public static void printSortedArray(int[] arr){
+        for (int i=0;i<arr.length;i++){
+            System.out.println("value of "+i+" element is "+arr[i]);
+        }
     }
 }
