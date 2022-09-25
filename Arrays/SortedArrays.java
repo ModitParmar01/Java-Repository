@@ -3,24 +3,35 @@ public class SortedArrays {
 
 /*arrays sorted in descending*/
     public static void main(String[] args) {
-        int[] arr = {2,3,4,5,6,23,24,26};
+        int[] arr = {26,2,3,4,5,6,23,24};
         int[] soretedArray = sort(arr);
         printSortedArray(soretedArray);
     }
 
 
     public static int[] sort(int[] arr){
-        int temp=0;
-        for(int j=0; j<arr.length-1; j++){
-        for(int i=0; i<arr.length-1;i++){
-            if(arr[i]<arr[i+1]){
-                temp = arr[i];
-                arr[i]=arr[i+1];
-                arr[i+1]=temp;
+        int[] sortedArray = new int[arr.length];
+        
+        for(int i=0; i<arr.length;i++){
+            sortedArray[i]=arr[i];
+        }
+        
+        boolean flag = true;
+        int temp;
+        
+        while(flag){
+            flag = false;
+            
+            for(int i=0; i<arr.length-1; i++){
+                if(sortedArray[i]<sortedArray[i+1]){
+                    temp = sortedArray[i];
+                    sortedArray[i]=sortedArray[i+1];
+                    sortedArray[i+1]=temp;
+                    flag=true;
+                }
             }
         }
-    }
-        return arr;
+        return sortedArray;
     }
 
     public static void printSortedArray(int[] arr){
