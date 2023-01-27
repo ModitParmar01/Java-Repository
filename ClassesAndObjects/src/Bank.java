@@ -58,7 +58,7 @@ public class Bank{
     
     public void deposite(int amount){
         balance+=amount;
-        System.out.println(amount+" got debited to your account a/c no. "+accountNumber+". Your balance is \u20b9" + balance+". More details has been sent to yout email id "+'"'+email+'"'+'.'+" And on you phone number '"+phoneNumber+"'.");
+        System.out.println(amount+" got debited to your account a/c no. "+accountNumber+". Your balance is \u20b9" + balance+". More details has been sent to yout email id "+'"'+email+'"'+'.'+" And on your phone number '"+phoneNumber+"'.");
     }
     
 }
