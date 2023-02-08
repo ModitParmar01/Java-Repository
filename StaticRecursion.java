@@ -11,8 +11,8 @@ public class StaticRecursion {
     }
 
 public static void main(String[] args) {
-    int x=5;
-    System.out.println(fun(x));
+    int r = fun(5);
+    System.out.println(r);
 }
 
 }
