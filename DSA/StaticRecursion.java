@@ -1,3 +1,4 @@
+package DSA;
 public class StaticRecursion {
     
     static int N=0;

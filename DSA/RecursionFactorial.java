@@ -1,3 +1,4 @@
+package DSA;
 public class RecursionFactorial {
     
     public static int fact(int n){

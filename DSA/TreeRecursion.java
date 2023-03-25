@@ -1,3 +1,4 @@
+package DSA;
 public class TreeRecursion {
     public static void fun(int n){
         if (n>0){
