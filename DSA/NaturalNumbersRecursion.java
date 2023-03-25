@@ -1,3 +1,4 @@
+package DSA;
 public class NaturalNumbersRecursion {
     
     public static int sum(int n){

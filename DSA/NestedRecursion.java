@@ -1,3 +1,4 @@
+package DSA;
 public class NestedRecursion {
     public static int fun(int n){
         if(n>10){
