@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Recursion;
 public class Recursion {
     public static void fun(int n){  //funtion will consume T(n) time
         if(n>0){    //that will consume unit time

@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Recursion;
 public class StaticRecursion {
     
     static int N=0;

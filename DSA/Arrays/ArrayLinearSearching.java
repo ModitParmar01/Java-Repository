@@ -1,4 +1,4 @@
-package DSA;
+package DSA.Arrays;
 public class ArrayLinearSearching {
     public static int search(int key, int[] arr){
 
