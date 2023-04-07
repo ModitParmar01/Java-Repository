@@ -20,6 +20,11 @@ public class Main{
         moditSBedroom.getAirConditioner().turnOff();
         moditSBedroom.getLamp().turnOffLamp();
         System.out.println("GOOD NIGHT");
+
+        
+        moditSBedroom.setBed(new Bed("sleepwell", 8, "plywood", 50, "double"));
+        String bedBrand = moditSBedroom.getBed().getBrand();
+        System.out.println(bedBrand);
     }
 
 }
