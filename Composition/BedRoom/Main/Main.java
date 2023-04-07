@@ -1,5 +1,5 @@
-package Composition.Main;
-import Composition.src.*;
+package Composition.BedRoom.Main;
+import Composition.BedRoom.src.*;
 
 public class Main{
     public static void main(String[] args) {

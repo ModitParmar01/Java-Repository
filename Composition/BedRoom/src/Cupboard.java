@@ -1,4 +1,4 @@
-package Composition.src;
+package Composition.BedRoom.src;
 public class Cupboard{
     private String manufracturer;
     private int noOfDoors;

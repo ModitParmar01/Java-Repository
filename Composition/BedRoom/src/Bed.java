@@ -1,4 +1,4 @@
-package Composition.src;
+package Composition.BedRoom.src;
 
 public class Bed {
     private String brand;
